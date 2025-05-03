@@ -48,7 +48,7 @@ This directory contains all modularized components used to run TRACE-style repre
 ## 📓 Jupyter Notebooks
 
 ### `DL4HRecreationSimulated.ipynb`
-
+- *This was attempts to recreate the original paper*
 - End-to-end recreation of the TRACE pipeline using synthetic ICU data.
 - Trains a TRACE encoder via masked modeling on `RichSyntheticICUDataset`.
 - Evaluates representation quality using:
@@ -57,7 +57,7 @@ This directory contains all modularized components used to run TRACE-style repre
 - Includes experiments on raw signal vs embedding performance.
 
 ### `DL4HFinalProject.ipynb`
-
+- *This is the notebook to run to test overall functionality and recreation*
 - Full experimental workflow demonstrating transfer learning.
 - Builds on the trained TRACE encoder and freezes it.
 - Adds classifier head to predict:
